@@ -1,4 +1,4 @@
 .vscode
 .DS_Store
 weights/*
-/__pycache__/*
+models/__pycache__/*
