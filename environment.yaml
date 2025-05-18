@@ -1,0 +1,17 @@
+name: sidepth
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.11.7
+  - pip
+  - pip:
+     - --extra-index-url https://download.pytorch.org/whl/cu128
+     - torch==2.7.0+cu128
+     - torchvision==0.22
+     - opencv-python
+     - timm
+     - tqdm
+     - yacs
+     - scikit-image

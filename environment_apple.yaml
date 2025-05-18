@@ -1,0 +1,15 @@
+name: depth-maps
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11.7
+  - pip
+  - pip:
+     - torch==2.7.0
+     - torchvision==0.22
+     - opencv-python
+     - timm
+     - numpy
+     - yacs
+     - scikit-image
