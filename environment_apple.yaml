@@ -9,7 +9,7 @@ dependencies:
      - torch==2.7.0
      - torchvision==0.22
      - opencv-python
-     - timm
+     - timm<=1.0.10
      - numpy
      - yacs
      - scikit-image
